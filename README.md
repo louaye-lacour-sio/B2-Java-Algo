@@ -1,4 +1,4 @@
-# Java TD - Collections et algorithmes - Lacour Louaye
+# <ins>Java TD - Collections et algorithmes - Lacour Louaye</ins>
 
 ## 1- Comparaisons
 
