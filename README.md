@@ -25,7 +25,8 @@
 		else {
 			return false;
 		}
-	}```
+	}
+```
 
 1.6) Une fois encore, jr1 == jr2 montre une différence car les variables ne référencent pas les mêmes objets.
 
@@ -38,7 +39,18 @@
 
 1.8) Implémentation de compareTo(Joueur) dans la Classe Joueur :
 ```
-d
+public int compareTo(Joueur autre) {
+		System.out.println("[Joueur::compareTo(Joueur):int]");
+		if (this.nbVictoires == autre.nbVictoires){
+			return 0;
+		}
+		else if (this.nbVictoires > autre.nbVictoires){
+			return 1;
+		}
+		else{
+			return -1;
+		}
+	}
 ```
 
 1.9) Après avoir effectué une vérification Watson (Joueur 2) est meilleur que Parker (Joueur 1) et lorsque l'on vérifie les attributs des 2 objets le Joueur 2 à effectivement plus de victoires que le Joueur 1
