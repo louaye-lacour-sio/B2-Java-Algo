@@ -17,7 +17,8 @@
 1.4) Création du projet B2GNSAlgo11 avec son package et importation des classes
 
 1.5) Implémentation de la méthode equals surchargée dans la Classe Joueur :
-```	public boolean equals(Joueur autre) {
+```	
+    public boolean equals(Joueur autre) {
 		System.out.println("[Joueur::equals(Joueur):boolean]");
 		if (this.numero == autre.numero){
 			return true;
@@ -39,18 +40,18 @@
 
 1.8) Implémentation de compareTo(Joueur) dans la Classe Joueur :
 ```
-public int compareTo(Joueur autre) {
-		System.out.println("[Joueur::compareTo(Joueur):int]");
-		if (this.nbVictoires == autre.nbVictoires){
-			return 0;
-		}
-		else if (this.nbVictoires > autre.nbVictoires){
-			return 1;
-		}
-		else{
-			return -1;
-		}
-	}
+    public int compareTo(Joueur autre) {
+	    System.out.println("[Joueur::compareTo(Joueur):int]");
+	    if (this.nbVictoires == autre.nbVictoires){
+	    	return 0;
+	    }
+	    else if (this.nbVictoires > autre.nbVictoires){
+	    	return 1;
+	    }
+	    else{
+		    return -1;
+	    }
+    }
 ```
 
 1.9) Après avoir effectué une vérification Watson (Joueur 2) est meilleur que Parker (Joueur 1) et lorsque l'on vérifie les attributs des 2 objets le Joueur 2 à effectivement plus de victoires que le Joueur 1
