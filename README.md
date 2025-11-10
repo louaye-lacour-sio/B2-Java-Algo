@@ -1,10 +1,10 @@
-# <ins><span style="color:red">Java TD - Collections et algorithmes - Lacour Louaye</span></ins>
+# <ins>Java TD - Collections et algorithmes - Lacour Louaye</ins>
 
 ## 1- Comparaisons
 
 ## B2GNSAlgo11
 
-### 1.1- Joueur
+### <span style="color:red">1.1- Joueur</span>
 1.1) Création du projet B2GNSAlgo11 avec son package et importation des classes
 
 
