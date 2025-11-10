@@ -22,6 +22,7 @@
 
 ```1.7.1) Après la compilation et l'exécution du programme, le résultat obtenu est True ("les deux joueurs sont identiques") car la méthode equals surchargée compare l'attribut numero des objets référencés par jr1 et jr2.```
 
+## B2GNSAlgo13
 ### 1.3- Nombre de victoires en tant que critère de comparaison
 
 ```1.7.2) Création du projet B2GNSAlgo11 avec son package et importation des classes```
@@ -29,3 +30,8 @@
 ```1.8) Implémentation de compareTo(Joueur autre) dans la Classe Joueur```
 
 ```1.9) Après avoir effectué une vérification Watson (Joueur 2) est meilleur que Parker (Joueur 1) et lorsque l'on vérifie les attributs des 2 objets le Joueur 2 à effectivement plus de victoires que le Joueur 1```
+
+## 2- Comparaisons et relations d'ordre
+
+## B2GNSAlgo21
+### 2.1- Collection d'objets dont la classe implémente l'interface Comparable<T>
