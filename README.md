@@ -14,7 +14,7 @@
 
 ## B2GNSAlgo12
 ### 1.2- Numéro de joueur en tant que critère de comparaison
-1.4) Création du projet B2GNSAlgo11 avec son package et importation des classes.
+1.4) Création du projet B2GNSAlgo12 avec son package et importation des classes.
 
 1.5) Implémentation de la méthode equals surchargée dans la Classe Joueur :
 ```	
@@ -36,7 +36,7 @@
 ## B2GNSAlgo13
 ### 1.3- Nombre de victoires en tant que critère de comparaison
 
-1.7.2) Création du projet B2GNSAlgo11 avec son package et importation des classes.
+1.7.2) Création du projet B2GNSAlgo13 avec son package et importation des classes.
 
 1.8) Implémentation de compareTo(Joueur) dans la Classe Joueur :
 ```
@@ -61,7 +61,7 @@
 ## B2GNSAlgo21
 ### 2.1- Collection d'objets dont la classe implémente l'interface Comparable\<T\>
 
-2.1) Création du projet B2GNSAlgo11 avec son package et importation des classes.
+2.1) Création du projet B2GNSAlgo21 avec son package et importation des classes.
 
 2.2) Utilisation de Collections.min : 
 ```
@@ -81,3 +81,40 @@
 
 ## B2GNSAlgo22
 ### 2.2- Collection d'objets dont la class N'implément PAS l'interface Comparable\<T\>
+
+2.4) Création du projet B2GNSAlgo22 avec son package et importation des classes.
+
+2.5)
+```
+Dans CaomparateurNbVictoires : 
+
+	@Override
+	public int compare(Joueur o1, Joueur o2) {
+		// TODO Auto-generated method stub
+		return o1.getNbVictoires() - o2.getNbVictoires();
+	}
+
+Dans AppTrierParNbVictoires :
+
+	System.out.println( "\nListe triée des joueurs :\n" ) ;
+		Collections.sort(joueurs, new ComparateurNbVictoires());
+		System.out.println(joueurs);
+
+```
+
+## 3- Recherche
+
+## B2GNSAlgo31
+
+3.1) Création du projet B2GNSAlgo31 avec son package et importation des classes.
+
+3.2)
+
+3.3) Création du projet B2GNSAlgo32 avec son package et importation des classes.
+
+3.4)
+
+3.5) Modification apportée :
+```
+
+```
