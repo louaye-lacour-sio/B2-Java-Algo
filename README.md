@@ -59,7 +59,7 @@
 ## 2- Comparaisons et relations d'ordre
 
 ## B2GNSAlgo21
-### 2.1- Collection d'objets dont la classe implémente l'interface Comparable<T>
+### 2.1- Collection d'objets dont la classe implémente l'interface Comparable\<T\>
 
 2.1) Création du projet B2GNSAlgo11 avec son package et importation des classes.
 
@@ -79,3 +79,5 @@
 		}
 ```
 
+## B2GNSAlgo22
+### 2.2- Collection d'objets dont la class N'implément PAS l'interface Comparable\<T\>
