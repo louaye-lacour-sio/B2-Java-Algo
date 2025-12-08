@@ -86,16 +86,16 @@
 
 2.5)
 ```
-Dans CaomparateurNbVictoires : 
+Dans ComparateurNbVictoires : 
 
 	@Override
 	public int compare(Joueur o1, Joueur o2) {
 		// TODO Auto-generated method stub
 		return o1.getNbVictoires() - o2.getNbVictoires();
 	}
-
+```
 Dans AppTrierParNbVictoires :
-
+```
 	System.out.println( "\nListe triée des joueurs :\n" ) ;
 		Collections.sort(joueurs, new ComparateurNbVictoires());
 		System.out.println(joueurs);
