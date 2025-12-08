@@ -1,6 +1,8 @@
 package fr.gns.app;
 
+
 public class Joueur implements Comparable<Joueur> {
+	
 	private int numero ;
 	private String nom ;
 	private String pays ;
@@ -52,19 +54,6 @@ public class Joueur implements Comparable<Joueur> {
 	public void setNbVictoires(int nbVictoires) {
 		this.nbVictoires = nbVictoires;
 	}
-	
-	public int compareTo1(Joueur autre) {
-		System.out.println("[Joueur::compareTo(Joueur):int]");
-		if (this.nbVictoires == autre.nbVictoires){
-			return 0;
-		}
-		else if (this.nbVictoires > autre.nbVictoires){
-			return 1;
-		}
-		else{
-			return -1;
-		}
-	}
 
 	@Override
 	public String toString() {
@@ -72,9 +61,17 @@ public class Joueur implements Comparable<Joueur> {
 	}
 
 	@Override
-	public int compareTo(Joueur autre) {
-		// TODO Auto-generated method stub
-		return 0;
+	public int compareTo(Joueur o) {
+
+		if( this.nbVictoires == o.nbVictoires ) {
+			return 0 ;
+		}
+		else if( this.nbVictoires > o.nbVictoires ) {
+			return 1 ;
+		}
+		else {
+			return -1 ;
+		}
 	}
-	
+
 }
