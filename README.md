@@ -84,17 +84,15 @@
 
 2.4) Création du projet B2GNSAlgo22 avec son package et importation des classes.
 
-2.5)
+2.5) Dans ComparateurNbVictoires : 
 ```
-Dans ComparateurNbVictoires : 
-
 	@Override
 	public int compare(Joueur o1, Joueur o2) {
 		// TODO Auto-generated method stub
 		return o1.getNbVictoires() - o2.getNbVictoires();
 	}
 ```
-Dans AppTrierParNbVictoires :
+	Dans AppTrierParNbVictoires :
 ```
 	System.out.println( "\nListe triée des joueurs :\n" ) ;
 		Collections.sort(joueurs, new ComparateurNbVictoires());
