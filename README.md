@@ -63,4 +63,19 @@
 
 2.1) Création du projet B2GNSAlgo11 avec son package et importation des classes.
 
-2.2) 
+2.2) Utilisation de Collections.min : 
+```
+	System.out.println( "\nCelui qui a remporté le moins de victoires :\n" ) ;
+			Joueur pireJoueur = Collections.min(joueurs);
+			System.out.println(pireJoueur);
+```
+
+2.3) Utilisation de Collections.sort :
+```
+	System.out.println( "\nListe triée des joueurs :\n" ) ;
+		Collections.sort(joueurs);
+		for (Joueur joueur : joueurs) {
+			System.out.println(joueur);
+		}
+```
+
