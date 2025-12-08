@@ -4,8 +4,8 @@
 
 ## B2GNSAlgo11
 
-### <span style="color:red">1.1- Joueur</span>
-1.1) Création du projet B2GNSAlgo11 avec son package et importation des classes
+### 1.1- Joueur
+1.1) Création du projet B2GNSAlgo11 avec son package et importation des classes.
 
 
 1.2) Lors de l'évaluation de l'expression jr1 == jr2 , le résultat obtenu indique une différence entre les 2 variables parce que ce ne sont pas les mêmes objets qu'elles référencent.
@@ -14,7 +14,7 @@
 
 ## B2GNSAlgo12
 ### 1.2- Numéro de joueur en tant que critère de comparaison
-1.4) Création du projet B2GNSAlgo11 avec son package et importation des classes
+1.4) Création du projet B2GNSAlgo11 avec son package et importation des classes.
 
 1.5) Implémentation de la méthode equals surchargée dans la Classe Joueur :
 ```	
@@ -36,7 +36,7 @@
 ## B2GNSAlgo13
 ### 1.3- Nombre de victoires en tant que critère de comparaison
 
-1.7.2) Création du projet B2GNSAlgo11 avec son package et importation des classes
+1.7.2) Création du projet B2GNSAlgo11 avec son package et importation des classes.
 
 1.8) Implémentation de compareTo(Joueur) dans la Classe Joueur :
 ```
@@ -60,3 +60,7 @@
 
 ## B2GNSAlgo21
 ### 2.1- Collection d'objets dont la classe implémente l'interface Comparable<T>
+
+2.1) Création du projet B2GNSAlgo11 avec son package et importation des classes.
+
+2.2) 
