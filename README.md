@@ -92,7 +92,7 @@
 		return o1.getNbVictoires() - o2.getNbVictoires();
 	}
 ```
-	Dans AppTrierParNbVictoires :
+Dans AppTrierParNbVictoires :
 ```
 	System.out.println( "\nListe triée des joueurs :\n" ) ;
 		Collections.sort(joueurs, new ComparateurNbVictoires());
