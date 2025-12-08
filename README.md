@@ -96,7 +96,9 @@ Dans AppTrierParNbVictoires :
 ```
 	System.out.println( "\nListe triée des joueurs :\n" ) ;
 		Collections.sort(joueurs, new ComparateurNbVictoires());
-		System.out.println(joueurs);
+		for( Joueur joueur : joueurs ) {
+			System.out.println( joueur ) ;
+		}
 
 ```
 
